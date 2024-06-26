@@ -1,0 +1,25 @@
+Altium Designer Pick and Place Locations
+C:\MyFiles\x-io\Products\x-IMU3\x-IMU3-SA-GPS\PCB\Project Outputs for x-IMU3-SA-GPS\Pick Place\Pick Place for x-IMU3-SA-GPS.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       20/06/24
+Time:       09:37
+Revision:   a184b8b2ca462d993668c1f20d043fec6704503b
+Variant:    No variations
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Layer","Rotation","Comment"
+"R2","30.5000mm","21.0000mm","TopLayer","180","10kR"
+"R3","30.5000mm","18.0000mm","TopLayer","0","470R"
+"R4","30.5000mm","19.5000mm","TopLayer","0","470R"
+"J2","31.5000mm","7.7500mm","TopLayer","180","BG304-06-A-0500-L-G"
+"J3","22.7500mm","11.0000mm","TopLayer","0","SP-3541"
+"U1","26.5000mm","17.5000mm","TopLayer","0","PIC32MM0064GPL020-I/ML"
+"R5","21.5000mm","5.5000mm","TopLayer","180","470R"
+"R1","25.0000mm","21.0000mm","TopLayer","0","10kR"
+"J1","21.6350mm","18.2700mm","TopLayer","270","DNP"
+"D1","25.0000mm","5.5000mm","TopLayer","0","WP424QR51WT/D-AMT"
+"C2","30.5000mm","16.5000mm","TopLayer","180","10uF"
+"C1","27.0000mm","21.0000mm","TopLayer","180","100nF"
