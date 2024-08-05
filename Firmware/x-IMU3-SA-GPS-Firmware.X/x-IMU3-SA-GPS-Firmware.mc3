@@ -1670,7 +1670,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\exceptions.c</file>
-         <hash>a0d5f1a371582511cfa0a062660bf0b39ee3a603a96410ce5c7286b3ce1b1144</hash>
+         <hash>265c985839caadb2fa9e8fc76e7bc3c160e31e9b2c96dc4006add33e5d7ee212</hash>
       </entry>
       <entry>
          <file>..\src\config\default\initialization.c</file>
@@ -1698,11 +1698,11 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\evic\plib_evic.c</file>
-         <hash>4c97b3737ba8ed8158ff73f645c3b7d911554b00fb7cc6b8552d53d889470b9c</hash>
+         <hash>fb3c7172daf96abbf26758146b77ad7cae20280042e1b810e6548ec4f417b5ab</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\evic\plib_evic.h</file>
-         <hash>1a20a94f8f7ce49b1f15758e8a03f6ac7d1ceb84036b215a1773e3d111b3e208</hash>
+         <hash>4e751bde98d6d45c1743efee8c9b14ab6f5bc030868ae8a990bd2753b3c58804</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\gpio\plib_gpio.c</file>

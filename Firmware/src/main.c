@@ -7,7 +7,7 @@
  * PIC32MM0064GPL020
  *
  * Compiler:
- * XC32 v4.40, MPLAB Harmony 3
+ * XC32 v4.45, MPLAB Harmony 3
  */
 
 //------------------------------------------------------------------------------
@@ -64,7 +64,7 @@ int main(void) {
     // Print start up message
     TimerDelayMilliseconds(500);
     ResetCausePrint(ResetCauseGet());
-    printf("x-IMU3-SA-GPS v1.0.0\n");
+    printf("x-IMU3-SA-GPS v1.0.1\n");
 
     // Initialise UART for 9600 baud
     UartSettings uartSettings = uartSettingsDefault;
