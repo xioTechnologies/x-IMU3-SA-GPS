@@ -1472,17 +1472,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="VREF_CLOCK_FREQUENCY"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;VREF_CLOCK_FREQUENCY&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="WDT_ALLOWED_WINDOW_PERIOD"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;WDT_ALLOWED_WINDOW_PERIOD&quot;&gt;
@@ -1662,7 +1651,7 @@
    <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>133a3bb69d569431dc1effcbec34c302cda2b5672aad4b82002e45826c6e2a68</hash>
+         <hash>28b6e5e4adb4bb34d35db6184e8b4652e0eaf8d6257ee91741acfee63d18c91d</hash>
       </entry>
       <entry>
          <file>..\src\config\default\device.h</file>
@@ -1674,11 +1663,11 @@
       </entry>
       <entry>
          <file>..\src\config\default\initialization.c</file>
-         <hash>9e588621b10be85e5a9c6a6e88f59cb963d908e6a70fef259d92da846d60bb6d</hash>
+         <hash>524d2d5f14650aa127b23d2d9b64fc9b216ad869ff924bd0fd3a4076ba79ebad</hash>
       </entry>
       <entry>
          <file>..\src\config\default\interrupts.c</file>
-         <hash>18e43d3431ccf50fb9da45742fd9468bae7bd43c18e4775669c685a6b5a60230</hash>
+         <hash>096e1fc7e5b30e91eef24e8f454da5a3f51154287b4be4346acaf437d7eac7d7</hash>
       </entry>
       <entry>
          <file>..\src\config\default\interrupts.h</file>
@@ -1686,11 +1675,11 @@
       </entry>
       <entry>
          <file>..\src\config\default\p32MM0064GPL020.ld</file>
-         <hash>9fc0b683a2381ee2369b605042714e5a7fb3421d8a3cacbc033bbf46a0376731</hash>
+         <hash>71fb72843d0e291f775b5b1260200772e4da9c6a173f7ffab495312aa149ed40</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clk\plib_clk.c</file>
-         <hash>1acdbafe75b22b436206d2d8ee8c7893f5386ffda13f6f5738b6cdd73f86ce14</hash>
+         <hash>56464964fa95461b687fcd3e107affac0a1eedc786fcd7c44e118a9ec58efae5</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clk\plib_clk.h</file>
@@ -1710,7 +1699,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\gpio\plib_gpio.h</file>
-         <hash>adfe5da7f1084de8d9da5132b32da7ef60bef50b4a7b7fd4d3df75c76a58443e</hash>
+         <hash>9a8f5d20859ea859c3140581f7d11005c0a19e1836fe0e861b351cd5167895ea</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\rcon\plib_rcon.c</file>

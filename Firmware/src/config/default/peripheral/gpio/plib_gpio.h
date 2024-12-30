@@ -64,34 +64,42 @@
 
 /*** Macros for UBLOX_RX pin ***/
 #define UBLOX_RX_Get()               ((PORTB >> 7) & 0x1)
+#define UBLOX_RX_GetLatch()          ((LATB >> 7) & 0x1)
 #define UBLOX_RX_PIN                  GPIO_PIN_RB7
 
 /*** Macros for UBLOX_TX_CLC pin ***/
 #define UBLOX_TX_CLC_Get()               ((PORTB >> 8) & 0x1)
+#define UBLOX_TX_CLC_GetLatch()          ((LATB >> 8) & 0x1)
 #define UBLOX_TX_CLC_PIN                  GPIO_PIN_RB8
 
 /*** Macros for UBLOX_TX_UART pin ***/
 #define UBLOX_TX_UART_Get()               ((PORTB >> 9) & 0x1)
+#define UBLOX_TX_UART_GetLatch()          ((LATB >> 9) & 0x1)
 #define UBLOX_TX_UART_PIN                  GPIO_PIN_RB9
 
 /*** Macros for TRRS_RX pin ***/
 #define TRRS_RX_Get()               ((PORTB >> 12) & 0x1)
+#define TRRS_RX_GetLatch()          ((LATB >> 12) & 0x1)
 #define TRRS_RX_PIN                  GPIO_PIN_RB12
 
 /*** Macros for TRRS_TX_CLC pin ***/
 #define TRRS_TX_CLC_Get()               ((PORTB >> 13) & 0x1)
+#define TRRS_TX_CLC_GetLatch()          ((LATB >> 13) & 0x1)
 #define TRRS_TX_CLC_PIN                  GPIO_PIN_RB13
 
 /*** Macros for U1TX pin ***/
 #define U1TX_Get()               ((PORTB >> 14) & 0x1)
+#define U1TX_GetLatch()          ((LATB >> 14) & 0x1)
 #define U1TX_PIN                  GPIO_PIN_RB14
 
 /*** Macros for TRRS_TX_UART pin ***/
 #define TRRS_TX_UART_Get()               ((PORTB >> 15) & 0x1)
+#define TRRS_TX_UART_GetLatch()          ((LATB >> 15) & 0x1)
 #define TRRS_TX_UART_PIN                  GPIO_PIN_RB15
 
 /*** Macros for LED pin ***/
 #define LED_Get()               ((PORTA >> 1) & 0x1)
+#define LED_GetLatch()          ((LATA >> 1) & 0x1)
 #define LED_PIN                  GPIO_PIN_RA1
 
 

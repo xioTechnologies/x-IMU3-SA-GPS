@@ -4,7 +4,7 @@
 
 
 project: x-IMU3-SA-GPS
-creation_date: 2024-08-05T17:09:25.670+01:00[Europe/London]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2024-12-30T17:08:36.180Z[Europe/London]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.0
@@ -14,8 +14,8 @@ harmony_version: v1.5.2
 compiler: XC32 4.45
 
 modules:
-    - {name: "csp", version: "v3.19.3"}
+    - {name: "csp", version: "v3.20.0"}
 
 packs:
-    - {name: "PIC32MM-GPL-0XX_DFP", version: "1.3.57"}
+    - {name: "PIC32MM-GPL-0XX_DFP", version: "1.4.168"}
 

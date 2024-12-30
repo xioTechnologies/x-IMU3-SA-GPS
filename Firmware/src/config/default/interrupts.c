@@ -79,32 +79,32 @@ void UART2_TX_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_UART1_RX_VECTOR, ipl1SOFT) UART1_RX_Handler (void)
+void __attribute__((used)) __ISR(_UART1_RX_VECTOR, ipl1SOFT) UART1_RX_Handler (void)
 {
     Uart1RXInterruptHandler();
 }
 
-void __ISR(_UART1_TX_VECTOR, ipl1SOFT) UART1_TX_Handler (void)
+void __attribute__((used)) __ISR(_UART1_TX_VECTOR, ipl1SOFT) UART1_TX_Handler (void)
 {
     Uart1TXInterruptHandler();
 }
 
-void __ISR(_CCT1_VECTOR, ipl7SRS) CCT1_Handler (void)
+void __attribute__((used)) __ISR(_CCT1_VECTOR, ipl7SRS) CCT1_Handler (void)
 {
     Cct1InterruptHandler();
 }
 
-void __ISR(_CCT2_VECTOR, ipl1SOFT) CCT2_Handler (void)
+void __attribute__((used)) __ISR(_CCT2_VECTOR, ipl1SOFT) CCT2_Handler (void)
 {
     Cct2InterruptHandler();
 }
 
-void __ISR(_UART2_RX_VECTOR, ipl1SOFT) UART2_RX_Handler (void)
+void __attribute__((used)) __ISR(_UART2_RX_VECTOR, ipl1SOFT) UART2_RX_Handler (void)
 {
     Uart2RXInterruptHandler();
 }
 
-void __ISR(_UART2_TX_VECTOR, ipl1SOFT) UART2_TX_Handler (void)
+void __attribute__((used)) __ISR(_UART2_TX_VECTOR, ipl1SOFT) UART2_TX_Handler (void)
 {
     Uart2TXInterruptHandler();
 }
